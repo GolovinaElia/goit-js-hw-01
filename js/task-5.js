@@ -4,7 +4,7 @@ answerCountry = prompt('В какую страну Вы желаете дост�
 if (answerCountry === null) {
     console.log();
 } else {
-answerCountry = answerCountry.toLowerCase();
+    answerCountry = answerCountry.toLowerCase();
 }
 switch (answerCountry) {
     case 'китай':
